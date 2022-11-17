@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+<metacharset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css rel="stylesheet">
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js></script>
+<link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+
+ <header>
+ <nav class="navbar navbar-expand-md p-3 navbar-dark"> <!--fw-bold-->
+
+ <!-- <div class="container-sm"> -->
+  <a class="navbar-brand" href="#">
+   <img src="codoacodo.png" alt="Codo Logo" style="width:120px" class="rounded-pill">
+  <a class="navbar-brand me-auto" href="#">Conf Bs As</a>
+  </a>
+  <ul class="navbar-nav">
+   <li class="nav-item">
+    <a class="nav-link active" href="#">La conferencia</a>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Los oradores</a>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">El lugar y la fecha</a>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Conviértete en orador</a>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link text-success" href="#">Comprar tickets</a>
+   </li>
+  </ul>
+ </div>
+</nav>
+</header>
+
+<main>
+ <!-- Carousel -->
+ <div id="demo" class="carousel slide" data-bs-ride="carousel">
+ 
+  <div class="carousel-inner bg-dark"> <!-- fw-bold-->
+  <div class="carousel-item active">
+   <img id="img1" src="ba1.jpg">
+   
+   <div class="carousel-caption text-end ">
+    <h2>Conf Bs As</h2>
+    <nav>Bs As llega por primera vez a la Argentina. Un evento para compartir con<br>
+         nuestra comunidad el conocieminto y experiencia de los expertos que<br>
+         están creando el futuro de internet. Van a conocer a miembros del<br>
+         evento, a otros estudiantes de Codo a Codo y los oradores de primer<br>
+         nivel que tenemos para ti. Te esperamosn!</nav> 
+    <br>
+    <!-- <button type="button" class="btn btn-outline" id="but1">Quiero ser orador</button>
+     <button type="button" class="btn btn-success">Comprar tickets</button>-->
+    <a href="#" class="btn" id="but1">Quiero ser orador</a> 
+    <a href="#" class="btn btn-success">Comprar tickets</a>  
+   </div>
+  </div>
+ </div>
+  
+ <div class="container mt-3">
+  <h6 class="d-flex justify-content-center text-secondary">CONOCE A LOS</h6>
+  <h3 class="d-flex justify-content-center">ORADORES</h3>
+ </div>
+  
+  <!-- Card -->
+  <div class="container mt-2" id="carta1">
+    
+  <div id="carta2" class="card" style="width:250px">
+    <img class="card-img-top" src="steve.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <a id="jav1" href="#" class="btn btn-warning">JavaScript</a>
+      <a id="rea1" href="#" class="btn btn-info">React</a>
+      <h5 class="card-title"><small>Steve Jobs</small></h5>
+      <h6 class="card-text"><small>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</small></h6>
+    </div>
+   </div>
+        
+    <div id="carta2" class="card" style="width:250px">
+    <img class="card-img-top" src="bill.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <a id="jav1" href="#" class="btn btn-warning">JavaScript</a>
+      <a id="rea1" href="#" class="btn btn-info">React</a>
+      <h5 class="card-title"><small>Steve Jobs</small></h5>
+      <h6 class="card-text"><small>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</small></h6>
+    </div>
+   </div>
+     
+   <div id="carta2" class="card" style="width:250px">
+    <img class="card-img-top" src="ada.jpeg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <a id="jav1" href="#" class="btn btn-warning">JavaScript</a>
+      <a href="#" class="btn btn-succes">React</a>
+      <h5 class="card-title"><small>Steve Jobs</small></h5>
+      <h6 class="card-text"><small>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</small></h6>
+    </div>
+   </div>
+
+  </div>
+ 
+  <br>
+  
+  <div class="flex-container">
+    <img id="img2" src="honolulu.jpg" alt="5 Terre">
+    <div class="box1">
+     <h3>Bs As - Octubre</h3>
+     <nav>Bs As es la provincia y localidad mas grande de la Argentina, en los Estados Unidos, Honolulu es la
+        más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área
+        urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad
+        condado consolidad que cubre toda la ciudad (aproximadamente 60km2 de superficie).</nav>
+     <a href="#" class="btn" id="but1" style="margin: 20px 0px">Conocé más</a>
+   </div>
+ </div>
+     
+  <div class="container mt-3">
+   <h6 class="d-flex justify-content-center text-secondary">CONVIÉRTE EN UN</h6>
+   <h3 class="d-flex justify-content-center">ORADORES</h3>
+   <h6 class="d-flex justify-content-center text-secondary" style="margin: 15px">Anótate como orador para dar una charla ignite. Cuéntanos de quieres hablar!</h6>
+  </div>
+   
+ <div class="container mt-3">
+   <form>
+     <div class="row">
+       <div class="col">
+         <input type="text" class="form-control" placeholder="Nombre" name="name">
+       </div>
+       <div class="col">
+         <input type="password" class="form-control" placeholder="Apellido" name="surnane">
+       </div>
+       <div class="mb-3 mt-3">
+       <textarea class="form-control" rows="4" id="comment" placeholder="Sobre qué quieres hablar?" name="text" style="font-size: 20px"></textarea>
+       <p>Recuerda incluir un título para tu charla</p>
+       <button id="but2" type="Enviar" class="btn">Enviar</button>
+       </div>
+      </div>
+   </form>
+ </div>  
+   
+ <footer>
+  <nav id="grad1" class="navbar navbar-expand-md p-4 navbar-dark justify-content-center">
+   <a class="navbar-brand" href="#"></a>
+   <ul class="navbar-nav">
+    <li class="nav-item">
+     <a class="nav-link active" href="#">Preguntas frecuentes</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link active" href="#">Contáctanos</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link active" href="#">Prensa</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link active" href="#">Conferencias</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link active" href="#">Términos y condiciones</a>
+    </li>
+     <li class="nav-item">
+     <a class="nav-link active" href="#">Privacidad</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link active" href="#">Estudiantes</a>
+    </li>   
+   </ul>
+ </nav>
+ </footer>
+     
+  </main>
+ </body>
+ </html>
